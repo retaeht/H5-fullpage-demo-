@@ -1,0 +1,394 @@
+/*第一屏 -------------star-------------*/
+
+.section1{
+	background: #FADD69 url(../images/t1fpyqfltdxxaiulhh-990-600.png) no-repeat center bottom;
+}
+.fly{
+	position: absolute;
+	right: 20%;
+	bottom: 90%;
+}
+.goods{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 150px;
+}
+.shirt01{
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	bottom: 335px;
+}
+/*第一屏 -------------end-------------*/
+/*第二屏 -------------star-------------*/
+.section2{
+	background: #84a2d4 url(../images/t1zdgpfi8exxca6rfn-2000-600.png) no-repeat center bottom;
+	z-index: 2;
+}
+.computer{
+	width: 990px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+
+}
+.search{
+	width: 222px;
+	height: 45px;
+	background: url("../images/search.png") no-repeat;
+	position: absolute;
+	right: -30px;
+	bottom: 300px;
+	display: none;
+}
+.search-wrods{
+	position: absolute;
+	top: 5px;
+	right:32px;
+	opacity: 0;
+}
+.search-02-1{
+	position: absolute;
+	height: 45px;
+	/*left: 50%;*/
+	bottom: 300px;
+	right: 370px;
+	display: none;
+}
+.goods-02{
+	position: absolute;
+	height: 100px;
+	right: 270px;
+	bottom: 212px;
+	display: none;
+}
+.shirt-02{
+	position: absolute;
+	bottom: 342px;
+	left: 395px;
+	width: 100px;
+	display: none;
+	z-index: 10;
+}
+.cover{
+	position: absolute;
+	bottom: 324px;
+    right: 494px;
+    width: 104px;
+    height: 100px;
+    z-index: 5;
+    background-color: #fff;
+    display: none;
+}
+/*第二屏 -------------end-------------*/
+/*第三屏 -------------star-------------*/
+.section3{
+	background: #ef674d;
+	z-index: 1;
+}
+.main{
+	background: url(../images/main.png) no-repeat center center;
+	position: absolute;
+	width: 700px;
+	height: 500px;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 50px;
+}
+.select	{
+	width: 300px;
+	height: 250px;
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	/*background-color: #fff;*/
+}
+.img {
+	position: absolute;
+	top: 0;
+}
+.img-01-a {
+	opacity: 0;  /* 这里我们先不用 display:  而用  opacity 淡入效果 */
+}
+.btn {
+	position: absolute;
+	bottom: 10px;
+}
+.btn-01-a {
+	opacity: 0;  /* 这里我们先不用 display:  而用  opacity 淡入效果 */
+}
+.t1f{
+	position: absolute;
+	left: 115px;
+	bottom: 160px;
+	display: none;
+}
+/*第三屏 -------------end-------------*/
+/*第四屏 -------------star-------------*/
+.section4{
+	background: #fed url(../images/t1iresfnxaxxca6rfn-2000-600.png) no-repeat center bottom;
+}
+.car {
+	width: 500px;
+	position: absolute;
+	/* background-color: pink; */
+	bottom: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 5;
+}
+.car-img {
+	position: absolute;
+	bottom: 200px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: -1;  /* 负值 往下叠加 */
+	display: none;
+}
+.cloud{
+	position: absolute;
+	left: 50%;
+	bottom: 550px;
+	animation:cloud 10s linear infinite;
+}
+.word {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 500px;
+}
+.words-04-a {
+	opacity: 0;
+}
+.note{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 180px;
+	display: none;
+}
+.note-img{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 60%;
+	opacity: 0;
+}
+/*第四屏 -------------end-------------*/
+/*第五屏 -------------star-------------*/
+.section5{
+	background: #d04759 url(../images/t1yisqfa4exxa3gmkg-2000-1500.png);
+	z-index: 49;
+}
+.words-05 {
+	position: absolute;
+	left: 20%;
+	top: 10%;
+	opacity: 0;
+}
+
+.card-05 {
+	position: absolute;
+	left: 20%;
+	bottom: 200px;
+	z-index: 10;
+}
+.order-05 {
+	position: absolute;
+	left: 27%;
+	bottom: 270px;
+}
+.t1f-05 {
+	position: absolute;
+	bottom: 800px;
+	left: 25%;
+	display: none;
+}
+.mouse {
+	position: absolute;
+	right: 20%;
+	bottom: 200px;
+}
+.mouse-05-a {
+	opacity: 0;
+}
+.hand-05 {
+	position: absolute;
+	right: 24%;
+	bottom: -375px;
+}
+.overFlow {  /* 切掉 鼠标小尾巴 */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+/*第五屏 -------------end-------------*/
+/*第六屏 -------------star-------------*/
+.section6{
+	background: #84d9ed url(../images/t1dvj.fn0gxxb0_fua-2500-600.png) no-repeat 25% 100%;
+}
+.car-06{
+	position: absolute;
+	right: 50%;
+	 bottom: 0;
+	z-index: 50;
+}
+.box-06 {
+	position: absolute;
+	left:123px;
+	bottom: 500px;
+	z-index: 50;
+}
+.pop-06 {
+	position: absolute;
+	bottom: 119px;
+	right: 48%;
+	display: none;
+	z-index: 50;
+}
+.boy {
+	right: 50%;
+	bottom: 0;
+	position: absolute;
+	height: 100px;
+}
+.girl {
+	position: absolute;
+	right: 315px;
+	bottom: 116px;
+	height: 123px;
+	display: none;
+	z-index: 50;
+}
+.door {
+	position: absolute;
+	right: 285px;
+	bottom: 116px;
+	opacity: 0;
+}
+.pop-07 {
+	position: absolute;
+	right:445px;
+	bottom: 400px;
+	z-index: 40;
+	display: none;
+}
+.words-06-a {
+	position: absolute;
+	left: 10%;
+	bottom: 479px;
+	display: none;
+}
+/*第六屏 -------------end-------------*/
+/*第七屏 -------------star-------------*/
+.section7{
+	background:url(../images/t1wf1tfctaxxa3gmkg-2000-1500.png) no-repeat 50% 100%;
+}
+.star {
+	position: absolute;
+    left: 50%;
+    bottom: 439px;
+    margin-left: -295px;
+    width: 0;
+    height: 20px;
+    background: url(../images/star.png) no-repeat;
+    background-size: 97px;
+}
+.good-07 {
+	position: absolute;
+	bottom: 382px;
+    left: 50%;
+    margin-left: -289px;
+    display: none;
+
+}
+/*第七屏 -------------end-------------*/
+/*第八屏 -------------star-------------*/
+.section8{
+background:url(../images/ksgw.png);
+}
+.beginShoping{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom:365px;
+}
+.btn-08-a{
+	position: absolute;
+	top: 0;
+	display: none;
+}
+.again{
+	position: absolute;
+	left: 50%;
+	margin-left: 240px;
+	bottom: 403px;
+	cursor: pointer;
+}
+.hand-08{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+}
+/*第八屏 -------------end-------------*/
+
+/*购物链接*/
+.go{
+	position: fixed;
+	top:5%;
+	right:5%;
+	z-index: 999;
+}
+/*动画组*/
+.updown{
+	animation: fly 3s linear infinite;
+}
+@keyframes fly{
+	
+	50%{
+		bottom: 80%;
+	}
+	100%{
+		bottom: 90%;
+	}
+}
+.shirt-updown{
+	animation: shirt 2.5s linear infinite;
+}
+@keyframes shirt{
+	50%{
+		bottom: 320px;
+	}
+	100%{
+		bottom: 335px;
+	}
+}
+@keyframes cloud{
+	50%{
+		left:20%;
+	}
+	100%{
+		left: 50%；
+	}
+}
+.next {
+	position: fixed;
+	bottom: 120px;
+	right: 10%;
+	z-index: 999;
+	animation: next 2s linear infinite;
+}
+@keyframes next{
+	50%{
+		bottom: 100px;
+	}
+	100%{
+		bottom: 120px;
+	}
+}
